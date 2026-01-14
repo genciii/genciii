@@ -11,7 +11,7 @@
 + "modelGroup": "IC",
   "isWifi": "false",
 - "barcode": "",
-+ "assetName": "MIX_BANT",
+  "assetName": "MIX_BANT",
   "serialNumbers": [
    "1122334455261000710101",
    "1122334455261000700101",
