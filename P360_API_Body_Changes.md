@@ -37,43 +37,48 @@
       {
         "materialName": "1234567890",
         "quantity": 1,
-        "isCritical": "F",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "K",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
         "isCritical": "FM",
 -       "materialGroup": "MARKA",
++       "materialGroup": "Fan Motor",
++       "MaterialUnitCode": "ST"
+      },
+      {
+        "materialName": "1234567890",
+        "quantity": 1,
+        "isCritical": "CP",
+-       "materialGroup": "MARKA",
++       "materialGroup": "Compressor",
++       "MaterialUnitCode": "ST"
+      },
+      {
+        "materialName": "1234567890",
+        "quantity": 1,
+        "isCritical": "CB",
+-       "materialGroup": "MARKA",
++       "materialGroup": "Control Box",
 +       "MaterialUnitCode": "ST"
       },
       {
         "materialName": "1234567890",
         "quantity": 0.56,
-        "isCritical": "CP",
+        "isCritical": "R3",
 -       "materialGroup": "MARKA",
++       "materialGroup": "R32 Refrigerant",
 +       "MaterialUnitCode": "KG"
       },
       {
         "materialName": "1234567890",
         "quantity": 188,
-        "isCritical": "GG",
--       "materialGroup": "MARKA",
+        "isCritical": "R4",
+-       "materialGroup": "R410A Refrigerant",
 +       "MaterialUnitCode": "GR"
       },
       {
         "materialName": "1234567890",
         "quantity": 1,
-        "isCritical": "G",
+        "isCritical": "GG",
 -       "materialGroup": "MARKA",
++       "materialGroup": "Guide Group",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -81,6 +86,15 @@
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
++       "materialGroup": "Guide Group",
++       "MaterialUnitCode": "ST"
+      },
+      {
+        "materialName": "1234567890",
+        "quantity": 1,
+        "isCritical": "AC",
+-       "materialGroup": "MARKA",
++       "materialGroup": "Accessories",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -93,71 +107,17 @@
       {
         "materialName": "1234567890",
         "quantity": 1,
-        "isCritical": "G",
+        "isCritical": "HE",
 -       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
++       "materialGroup": "Helium",
++       "MaterialUnitCode": "GR"
       },
       {
         "materialName": "1234567890",
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
-+       "MaterialUnitCode": "ST"
-      },
-      {
-        "materialName": "1234567890",
-        "quantity": 1,
-        "isCritical": "G",
--       "materialGroup": "MARKA",
++       "materialGroup": "Guide Group",
 +       "MaterialUnitCode": "ST"
       }
     ]
