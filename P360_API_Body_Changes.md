@@ -35,7 +35,9 @@
     "description": "SAPBOMfor1122334455",       //🔵 Açıklama 
     "bomMaterials": [                           //🔵 Malzeme Listesi (HALB ROH ZHLB ZROH)   
       {
-        "materialName": "1234567890",           //🔵 Malzeme Kodu 
+-       "materialName": "1234567890",           //🔴 DELETE
++       "materialCode": "1234567890",           //🔵 Malzeme Kodu
++       "materialName": "Malzeme",              //🔵 Malzeme Tanımı
         "quantity": 1,                          //🔵 Miktar 
         "isCritical": "FM",                     //🔵 Zzkrpar
 -       "materialGroup": "MARKA",               //🔴 DELETE
@@ -43,7 +45,9 @@
 +       "MaterialUnitCode": "ST"                //🔵 Temel Ölçü Birimi
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",          
++       "materialCode": "1234567890",          
++       "materialName": "Malzeme",              
         "quantity": 1,
         "isCritical": "CP",
 -       "materialGroup": "MARKA",
@@ -51,7 +55,9 @@
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",           
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",              
         "quantity": 1,
         "isCritical": "CB",
 -       "materialGroup": "MARKA",
@@ -59,7 +65,9 @@
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",          
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",              
         "quantity": 0.56,
         "isCritical": "R3",
 -       "materialGroup": "MARKA",
@@ -67,14 +75,18 @@
 +       "MaterialUnitCode": "KG"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",           
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",             
         "quantity": 188,
         "isCritical": "R4",
 -       "materialGroup": "R410A Refrigerant",
 +       "MaterialUnitCode": "GR"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",           
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",             
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
@@ -82,7 +94,9 @@
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",          
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",             
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
@@ -90,7 +104,9 @@
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",          
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",            
         "quantity": 1,
         "isCritical": "AC",
 -       "materialGroup": "MARKA",
@@ -98,14 +114,18 @@
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",          
++       "materialCode": "1234567890",          
++       "materialName": "Malzeme",           
         "quantity": 1,
         "isCritical": "G",
 -       "materialGroup": "MARKA",
 +       "MaterialUnitCode": "ST"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",       
++       "materialCode": "1234567890",         
++       "materialName": "Malzeme",             
         "quantity": 1,
         "isCritical": "HE",
 -       "materialGroup": "MARKA",
@@ -113,7 +133,9 @@
 +       "MaterialUnitCode": "GR"
       },
       {
-        "materialName": "1234567890",
+-       "materialName": "1234567890",         
++       "materialCode": "1234567890",           
++       "materialName": "Malzeme",            
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
