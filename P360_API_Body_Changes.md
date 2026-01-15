@@ -32,7 +32,7 @@
   "quantity": 25,                               //🔵 Miktar 
   "description": "SAP üzerinden gelen iş emri", //🔵 Açıklama 
   "bom": {                                      //🔵 BOM Zzkrpar dolu olan malzemeler
-    "description": "SAPBOMfor1122334455",       //🔵 Açıklama 
+-   "description": "SAPBOMfor1122334455",       //🔵 Açıklama 
     "bomMaterials": [                           //🔵 Malzeme Listesi (HALB ROH ZHLB ZROH)   
       {
 -       "materialName": "1234567890",           //🔴 DELETE
@@ -41,7 +41,7 @@
         "quantity": 1,                          //🔵 Miktar 
         "isCritical": "FM",                     //🔵 Zzkrpar
 -       "materialGroup": "MARKA",               //🔴 DELETE
-+       "materialGroup": "Fan Motor",           //🔵 Marka yerine Krpartx
++       "criticalDescription": "Fan Motor",           //🔵 Marka yerine Krpartx
 +       "MaterialUnitCode": "ST"                //🔵 Temel Ölçü Birimi
       },
       {
@@ -51,7 +51,7 @@
         "quantity": 1,
         "isCritical": "CP",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Compressor",
++       "criticalDescription": "Compressor",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -61,7 +61,7 @@
         "quantity": 1,
         "isCritical": "CB",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Control Box",
++       "criticalDescription": "Control Box",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -71,7 +71,7 @@
         "quantity": 0.56,
         "isCritical": "R3",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "R32 Refrigerant",
++       "criticalDescription": "R32 Refrigerant",
 +       "MaterialUnitCode": "KG"
       },
       {
@@ -80,7 +80,7 @@
 +       "materialName": "Malzeme",             
         "quantity": 188,
         "isCritical": "R4",
--       "materialGroup": "R410A Refrigerant",
+-       "criticalDescription": "R410A Refrigerant",
 +       "MaterialUnitCode": "GR"
       },
       {
@@ -90,7 +90,7 @@
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Guide Group",
++       "criticalDescription": "Guide Group",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -100,7 +100,7 @@
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Guide Group",
++       "criticalDescription": "Guide Group",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -110,7 +110,7 @@
         "quantity": 1,
         "isCritical": "AC",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Accessories",
++       "criticalDescription": "Accessories",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -119,7 +119,7 @@
 +       "materialName": "Malzeme",           
         "quantity": 1,
         "isCritical": "G",
--       "materialGroup": "MARKA",
+-       "criticalDescription": "MARKA",
 +       "MaterialUnitCode": "ST"
       },
       {
@@ -129,7 +129,7 @@
         "quantity": 1,
         "isCritical": "HE",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Helium",
++       "criticalDescription": "Helium",
 +       "MaterialUnitCode": "GR"
       },
       {
@@ -139,7 +139,7 @@
         "quantity": 1,
         "isCritical": "GG",
 -       "materialGroup": "MARKA",
-+       "materialGroup": "Guide Group",
++       "criticalDescription": "Guide Group",
 +       "MaterialUnitCode": "ST"
       }
     ]
