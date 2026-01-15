@@ -7,8 +7,10 @@
   "plannedSTartDate": "2026-01-14T15:30:00Z ",    //🔵 Planlanan Bitiş Tarihi ve Saati
   "materialCode": "1122334455",                   //🔵 Malzeme Kodu 
   "materialName": "12 DEMODENEME123 V1 EUROPE",   //🔵 Malzeme Tanımı
-  "brand": "MARKA",                               //🔵 Marka
-+ "modelGroup": "IC",                             //🔵 Chassiscode alanı
+  "brand": "MARKA",                               //🔵 Marka Karakteristikten Alacağız
++ "type": "RAC",                                  //🔵 Karakteristikten alacağız AL_ÜRÜN_ANA_GRUBU
++ "modelGroup": "IC",                             //🔵 Karakteristikten alacağız AL_İÇ_DIŞ (İç-Dış)
++ "chassisCode": "U4_4HP",                        //🔵 Karakteristikten alacağız AL_İÇ_ANA_ŞASİ/AL_DIŞ_ANA_ŞASİ (İç-Dış-U4_4HP)
   "isWifi": "false",                              //🔵 ZFRT Malzemelerde (mamül) Zzkrpar WF ise true değilse false
 - "barcode": "",                                  //🔴 DELETE
   "assetName": "MIX_BANT",                        //🔵 İşyeri 
