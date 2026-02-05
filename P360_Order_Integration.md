@@ -10,11 +10,11 @@
 
 ### 1.1 System Roles
 
-| System | Role | Flexibility | Key Function |
+| System | Role | Sevirity | Key Function |
 |:-------|:-----|:-----------:|:-------------|
 | **SAP** | Source of Truth | - | Order management, triggers integrations |
-| **Aybil** | Label Automation | 🟢 High | Generates serial numbers, prints barcodes on production line |
-| **P360** | MES (Manufacturing Execution) | 🔴 Low | Tracks production, manages shop floor execution |
+| **Aybil** | Label Automation | 🔴 High | Generates serial numbers, prints barcodes on production line |
+| **P360** | MES (Manufacturing Execution) | 🔴 High | Tracks production, manages shop floor execution |
 
 ### 1.2 Data Flow
 
