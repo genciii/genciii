@@ -3,8 +3,8 @@
 ```diff
 {
   "externalId": "25179",                          //🔵 Planlı Sipariş No
-  "plannedSTartDate": "2026-01-14T14:30:00Z ",    //🔵 Planlanan Başlangıç Tarihi ve Saati
-  "plannedSTartDate": "2026-01-14T15:30:00Z ",    //🔵 Planlanan Bitiş Tarihi ve Saati
+  "plannedStartDate": "2026-01-14T14:30:00Z ",    //🔵 Planlanan Başlangıç Tarihi ve Saati
+  "plannedEndDate": "2026-01-14T15:30:00Z ",      //🔵 Planlanan Bitiş Tarihi ve Saati
   "materialCode": "1122334455",                   //🔵 Malzeme Kodu 
   "materialName": "12 DEMODENEME123 V1 EUROPE",   //🔵 Malzeme Tanımı
   "brand": "MARKA",                               //🔵 Marka Karakteristikten Alacağız
