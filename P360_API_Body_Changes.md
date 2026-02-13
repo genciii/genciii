@@ -12,6 +12,7 @@
 + "modelGroup": "IC",                             //🔵 Karakteristikten alacağız AL_İÇ_DIŞ (İç-Dış)
 + "chassisCode": "U4_4HP",                        //🔵 Karakteristikten alacağız AL_İÇ_ANA_ŞASİ/AL_DIŞ_ANA_ŞASİ (İç-Dış-U4_4HP)
   "isWifi": "false",                              //🔵 ZFRT Malzemelerde (mamül) Zzkrpar WF ise true değilse false
++ "status": "1",                                  //🔵 1/2/3 1 create 2 update 3 delete
 - "barcode": "",                                  //🔴 DELETE
   "assetName": "MIX_BANT",                        //🔵 İşyeri 
   "serialNumbers": [                              //🔵 Barcode Listesi(Aybil DomesticCode)
